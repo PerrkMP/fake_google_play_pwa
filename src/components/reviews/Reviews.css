@@ -1,0 +1,200 @@
+.Reviews {
+    margin-top: 24px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.Reviews-header, .Reviews-stats, .Reviews-item-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Reviews-item-header {
+    align-items: center;
+}
+
+.Reviews-stats, .Reviews-item {
+    margin-top: 48px;
+}
+
+.Reviews-item-content {
+    margin-top: 24px;
+}
+
+.Reviews-header h3, .Reviews-header svg path {
+    fill: #202124 !important;
+    stop-color: #202124 !important;
+    color: #202124 !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    line-height: 1.5rem !important;
+}
+
+.Reviews-stats-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100px !important;
+}
+
+.Reviews-stats-info small {
+    fill: #5f6368;
+    stop-color: #5f6368;
+    color: #5f6368;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .025em;
+    line-height: 1rem;
+    margin-top: .5rem;
+}
+
+.Reviews-stats-info-rating {
+    stop-color: #202124 !important;
+    color: #202124 !important;
+    font-family: Google Sans Display,Roboto,Arial,sans-serif !important;
+    font-size: 3.5rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    line-height: 4rem !important;
+}
+
+.Reviews-stats-bars {
+    padding-top: 18px;
+    padding-left: 24px;
+}
+
+.Reviews-stats-bars-count {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .025em;
+    line-height: 1rem;
+    color: #5f6368;
+    margin-top: -.15rem !important;
+}
+
+.Reviews-item-author {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Reviews-item-author-name {
+    color: #202124;
+    font-size: .875rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .0142857143em !important;
+    line-height: 1.25rem !important;
+}
+
+.Reviews-item-content-info {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Reviews-item-content-date {
+    color: #5f6368 !important;
+    font-family: Roboto,Arial,sans-serif !important;
+    font-size: .75rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .025em !important;
+    line-height: 1rem !important;
+    margin-left: 1ch !important;
+    margin-top: 3px;
+}
+
+.Reviews-item-content-text {
+    color: #5f6368 !important;
+    font-size: .875rem !important;
+    letter-spacing: .0142857143em !important;
+    line-height: 1.25rem !important;
+    margin-top: 8px !important;
+    overflow-wrap: anywhere !important;
+}
+
+.Reviews-item-content-likes, .Reviews-item-content-actions-question {
+    color: #5f6368 !important;
+    font-family: Roboto,Arial,sans-serif !important;
+    font-size: .75rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .025em !important;
+    line-height: 1rem !important;
+}
+
+.Reviews-item-content-actions-question {
+    margin-right: 15px !important;
+}
+
+.Reviews-item-content-likes {
+    margin-top: 16px !important;
+}
+
+.Reviews-item-content-actions {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 8px !important;
+}
+
+.allReviewsButton {
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    color: #01875f !important;
+    display: inline-flex !important;
+    font: inherit !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    justify-content: center !important;
+    letter-spacing: .0107142857em !important;
+    line-height: inherit !important;
+    margin: 24px 0 !important;
+    min-height: 40px !important;
+    min-width: 64px !important;
+    overflow: visible !important;
+    padding: 0 8px !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    text-transform: inherit !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    vertical-align: middle !important;
+    will-change: transform,opacity !important;
+}
+
+.MuiLinearProgress-bar {
+    background-color: #01875f !important;
+    border-radius: 9999px;
+}
+
+.MuiGrid-item {
+    padding-top: 2px !important;
+}
+
+.MuiAvatar-circular {
+    margin-right: 1rem;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.MuiChip-outlined {
+    color: #5f6368 !important;
+    cursor: pointer !important;
+    font: inherit !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    height: 24px !important;
+    letter-spacing: .25px !important;
+    line-height: 10px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}

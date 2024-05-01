@@ -1,0 +1,49 @@
+.Contacts {
+    margin-bottom: 24px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.Contacts-content {
+    box-shadow: none !important;
+}
+
+.Contacts-item {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.Contacts-item-title {
+    color: #202124 !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .0178571429em !important;
+    line-height: 1.25rem !important;
+}
+
+.Contacts-item-content {
+    color: #5f6368 !important;
+    font-family: Roboto,Helvetica,Arial,sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .0142857143em !important;
+    line-height: 1.25rem !important;
+    overflow-wrap: anywhere !important;
+}
+
+#panel1-header {
+    color: #202124 !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    justify-content: space-between !important;
+    letter-spacing: 0 !important;
+    line-height: 1.5rem !important;
+}
+
+.MuiAccordionSummary-root, .MuiAccordionDetails-root {
+    padding: 0 !important;
+}

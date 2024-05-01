@@ -1,0 +1,52 @@
+.Title {
+    margin-top: 48px;
+    display: flex !important;
+    flex-wrap: nowrap;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.Title-logo {
+    border-radius: 20% !important;
+    margin-top: 0.4rem;
+}
+
+.Title-logo, .Title-logo img {
+    width: 72px;
+    height: 72px;
+}
+
+.Title-app {
+    max-width: 200px;
+    margin-left: 24px;
+}
+
+.Title-app-name {
+    font-family: Roboto,Arial,sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    line-height: 2rem !important;
+}
+
+.Title-app-company {
+    fill: #01875f;
+    stop-color: #01875f;
+    color: #01875f;
+    font-family: Roboto,Arial,sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .00625em !important;
+    line-height: 1.5rem !important;
+}
+
+.Title-app-info {
+    fill: #5f6368;
+    stop-color: #5f6368;
+    color: #5f6368;
+    font-family: Roboto,Arial,sans-serif !important;
+    font-size: .75rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .025em !important;
+    line-height: 1rem !important;
+}

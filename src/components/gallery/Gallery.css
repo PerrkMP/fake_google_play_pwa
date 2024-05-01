@@ -1,0 +1,19 @@
+.Gallery {
+    margin-top: 72px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.Gallery-collection {
+    display: flex;
+}
+
+.Gallery-img {
+    margin-right: 12px;
+}
+
+.Gallery-img, .Gallery-img img {
+    border-radius: 8px !important;
+    width: 121px;
+    height: 206px;
+}

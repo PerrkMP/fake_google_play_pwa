@@ -1,0 +1,86 @@
+.Description {
+    margin-top: 24px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.Description-app, .Description-app-security {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Description-app-security {
+    margin-top: 52px;
+}
+
+.Description-app h3, .Description-app svg path,
+.Description-app-security h3, .Description-app-security svg path {
+    fill: #202124 !important;
+    stop-color: #202124 !important;
+    color: #202124 !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    line-height: 1.5rem !important;
+}
+
+.Description-app svg, .Description-app-security svg {
+    border: 0;
+    box-sizing: border-box;
+    color: #5f6368 !important;
+    margin: 0;
+    vertical-align: initial;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+
+.Description-app svg path, .Description-app-security svg path {
+    fill: #5f6368 !important;
+    stop-color: #5f6368 !important;
+}
+
+.Description-app-content, .Description-app-updates-content, .Description-app-security-content {
+    color: #5f6368 !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    border: 0;
+    box-sizing: border-box;
+    display: -webkit-box;
+    font-family: Roboto,Helvetica,Arial,sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .0142857143em !important;
+    line-height: 1.25rem !important;
+    margin: 0 !important;
+    max-height: 7.5rem;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-rendering: optimizeLegibility;
+    vertical-align: initial;
+    margin-top: 24px !important;
+}
+
+.Description-app-updates-content {
+    margin-top: 5px !important;
+}
+
+.Description-app-updates-title {
+    stop-color: #202124 !important;
+    color: #202124 !important;
+    font-family: Google Sans,Roboto,Arial,sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .0178571429em;
+    line-height: 1.25rem;
+    margin-top: 20px !important;
+}
+
+.MuiCard-root {
+    border-radius: 8px !important;
+    margin-top: 28px !important;
+}

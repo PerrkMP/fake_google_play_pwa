@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wishButton {
+  border: none !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  color: #01875f !important;
+  display: inline-flex !important;
+  font: inherit !important;
+  font-family: Google Sans,Roboto,Arial,sans-serif !important;
+  font-size: .875rem !important;
+  font-weight: 500 !important;
+  height: 36px !important;
+  justify-content: center !important;
+  letter-spacing: .0107142857em !important;
+  line-height: inherit !important;
+  margin: 6px 0 !important;
+  min-height: 40px !important;
+  min-width: 64px !important;
+  overflow: visible !important;
+  padding: 0 8px !important;
+  text-align: inherit !important;
+  text-decoration: none !important;
+  text-transform: inherit !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  vertical-align: middle !important;
+  will-change: transform,opacity !important;
+}
+
+.wishButton svg {
+  margin-right: 8px;
+}
+
+.wishButton path {
+  fill: #01875f;
+}
+
+.Avalible-device p {
+  fill: #5f6368;
+  stop-color: #5f6368;
+  color: #5f6368;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: .0142857143em;
+  line-height: 1.25rem;
+  padding: 4px 0;
+}
